@@ -1,0 +1,65 @@
+a=10
+b=5
+resultat=a*b
+print(resultat)
+
+A=7.2
+B=10.1
+#(sensible au maj )on remarque que c'est ranger par ordre alphabétique et les autre objet sont gardé 
+resultat=A+B
+#resultat d'avant est changer 
+rm(a,b,A,B,resultat)
+
+
+#exercice 2
+#1
+vect=c(0,1,2,3,4)
+class(vect)
+vect[3]
+rm(vect)
+#1
+v1=1:5
+v2=v1+3
+v3= 1:6
+v4=v3^2
+v5=v4/2
+vjour=c("lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche")
+class(vjour)
+vjour[c(2,7)]
+vectbo=c(TRUE,FALSE,TRUE,FALSE,TRUE)
+class(vectbo)
+vectnum=c(1.2,2.8,6.5,8.9,7.8)
+class(vectnum)
+vectnum[-3]
+vectmois=c("janvier","févirer","mars",
+           "avril","mai","juin","juillet",
+           "aout","septembre","octobre","novembre","decembre")
+vectmois[c(1:3)]
+vectnum2=c(-1,-2,-6,-8,-9)
+class(vectnum2)
+vectnum2[c(1,5)]
+fruit=c("orange","fraise","pastéque","banane","melon","pomme")
+class(fruit)
+fruit[-c(1,2)]
+valmanq=c(1,8,9,8,NA,56)
+class(valmanq)
+rm(v1,v2,v3,v4,v5,fruit,valmanq,vectbo,vectmois,vectnum,vectnum2,vjour)
+
+nb=seq(from= 1 , to= 10)
+length(nb)
+pairs=seq(from=2 , to=20 , by = 2)
+length(pairs)
+dec=seq(from=0, to=-5)
+length(dec)
+multi5=seq(from=5, to=50 , by=5)
+length(multi5)
+desc1=seq(from=10, to =1 )
+length(desc1)
+decimal= seq( from=0, to =1, by = 0.1)
+length(decimal)
+scooby= seq(from=5,to=-5,by=-1)
+length(scooby)
+impaire=seq(from=1, to=10, by=2)
+length(impaire)
+rm(dec,decimal,desc1,impaire,length,multi5,nb,pairs,scooby)
+liste3=c(rep(3))
